@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Decodificador e Codificador</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/img/alura.svg" alt=" " class="logo">
+    </header>
+
+    <main>
+        <!--Entrada de texto-->
+        <div class="container_principal">
+            <div class="texto_container">
+                <textarea id="texto_alvo" type="text" placeholder="Digite seu texto" name="texto" class="form_texto"
+                    required></textarea>
+                <p class="aviso_texto"><i class="bi bi-exclamation-circle-fill"></i>
+                    Apenas letras minúsculas e sem acento.</p>
+                <!--Botões principais-->
+                <div class="form_botoes">
+                    <button id="btnCriptografar" class="cripto">Criptografar</button>
+                    <button id="btnDescriptografar" class="descri">Descriptografar</button>
+                </div>
+            </div>
+
+            <!--Container para resultado-->
+            <div class="mensagens_salvas">
+                <div id="sem_mensagens">
+                    <img src="./assets/img/hqp.svg" alt=" " class="sem_mensagem-img">
+                    <p class="sem_mensagem-titulo">Nenhuma mensagem encontrada</p>
+                    <p class="sem_mensagem-texto">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+                <!--Mensagem após decodificação/decodificação-->
+                <div id="mensagem_salva" class="mensagem_salva">
+                    <p id="texto_salvo" class="texto_salvo"></p>
+                    <button id="btnCopiar" class="copiar">Copiar</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="footer_spacer"></div>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_autor">
+                <p>Desenvolvido por <a href="https://github.com/SobreiraV" target="_blank">Vinícius</a>.</p>
+            </div>
+
+            <div class="footer_one">
+                <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">ONE - Oracle Next
+                    Education</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="./assets/js/main.js"></script>
+<script src="./assets/js/acentos.js"></script>
+
+</html>
