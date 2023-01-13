@@ -1,6 +1,6 @@
-# Primeiro Challenge do One T4 - Oracle Next Education e Alura
+# Primeiro Challenge do One - Oracle Next Education
 
-O desafio consiste em desenvolver uma aplicação para decodificar textos
+O desafio consiste em desenvolver uma aplicação para decodificar textos, a página possui responsividade e vária de acordo com a resolução para celular, tablet e desktop.
 
 ## Requisitos
 - Deve funcionar apenas com letras minúsculas.
@@ -19,6 +19,17 @@ As vogais do texto serão convertidas em uma sequência de letras pré determina
 - A letra "a" é convertida para "ai".
 - A letra "o" é convertida para "ober".
 - A letra "u" é convertida para "ufat".
+
+<div align="center">
+
+**Página desktop**
+![](./assets/img/tela1.jpg)
+
+**Página mobile**
+<br>
+<img src="./assets/img/tela2.jpg" height="400" text-align="center"/>
+
+</div>
 
 ## Linguagens
 
