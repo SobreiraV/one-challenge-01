@@ -1,6 +1,6 @@
 btnCriptografar.onclick = function () {
     let texto = texto_alvo.value;
-    let textoCriptografado = texto
+    let textoCriptografado = texto.toLowerCase()
         .replaceAll("e", "enter")
         .replaceAll("i", "imes")
         .replaceAll("a", "ai")
@@ -14,7 +14,7 @@ btnCriptografar.onclick = function () {
 
 btnDescriptografar.onclick = function () {
     let texto = texto_alvo.value;
-    let textoDescriptografado = texto
+    let textoDescriptografado = texto.toLowerCase()
         .replaceAll("enter", "e")
         .replaceAll("imes", "i")
         .replaceAll("ai", "a")
